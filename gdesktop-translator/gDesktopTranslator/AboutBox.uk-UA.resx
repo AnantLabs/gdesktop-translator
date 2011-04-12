@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Ця програма є настільним кліентом для сервісів перекладу Google Translate.
+
+Якщо вам доводиться працювати із іноземними текстами, незрозумілими словами - тоді ця програма - це те, що вам потрібно! 
+
+Ви можете вставити текст у верхню область редагування, обрати мову оригіналу тексту і мову, на яку потрібно перекласти, і натиснути кнопку переклад.
+
+Крім цього, ви можете у будь-якому вікні, що підтримує копіювання за допомогою комбінації Ctrl+C, перекласти виділений текст. Для цього його потрібно просто виділити потрібний фрагмент тексту і швидко натиснути Ctrl+C+C. В результаті з'явиться вікно із перекладом виділеного фрагменту. Ви можете налаштувати мову оригіналу і перекладу, які використовуютсья при цьому.
+
+Ця програма згортається в системний лоток при мінімізації і може завантажуватися при запуску системи. 
+
+Ці опції можна налаштувати за допомогою команди Файл-&gt;Налаштування.
+
+Всі незнайомі слова можете додати до списку вивчення. Після цього, вони періодично (час налаштовується) вони будуть виводитися у двох варіантах: або слово-переклад, або слово і 4 варіанти відповіді і потрібно обрати один із них.
+
+У версії 1.1 додано можливість прослуховувати текст перекладу (підтримуються тексти довжиною до 100 символів).
+
+Можете скористатися швидким пошуком в інтернеті тексту, що знаходиться в буфері. Для цього потрібно натиснути комбінацію клавіш [Ctrl-Alt-F] (доступно глобально) 
+
+Буду радий відгукам та побажанням щодо програми. 
+Пишіть мені на електронну пошту ganzha.vitaliy@gmail.com
+
+Мій сайт: http://bytes.org.ua/
+
+Ви можете швидко відкрити головне вікно програми за допомогою глобальної комбінації клавіш Alt+Ctrl+O
+
+[Ctrl+C+C]   - (доступне глобально) перекласти виділений фрагмент тексту у будь-якому вікні (яке підтримує копіювання за допомогою клавіш Ctrl+C+C)
+[Ctrl-Alt-F] - (доступне глобально) швидкий пошук тексту із буферу в інтернеті
+[Alt+Ctrl+O] - Показати вікно програми
+[Ctrl+P]     - Відкрити вікно налаштувань програми
+[Ctrl+T]     - Перекласти текст(у головному вікні)
+[Ctrl+D]     - Визначити мову тексту(у головному вікні)
+[Ctrl+E]     - Змінити мову інтерфейсу на англійську
+[Ctrl+U]     - Змінити мову інтерфейсу на українську
+[Ctrl+R]     - Змінити мову інтерфейсу на російську
+[F1]	     - Показати коротку довідку про програму
+[Alt+X]      - Вихід із програми
+[Ctrl+S]	 - Обміняти мови оригіналу і перекладу
+[Ctrl+Del]	 - Очистити все
+[Ctrl+Ins]	 - Вставити текст із буферу і перекласти
+[Ctrl+W] 	 - Вставити текст із буферу</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+</root>

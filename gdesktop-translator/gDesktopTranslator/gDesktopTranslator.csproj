@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67356209-2C15-489E-AC6C-6B5DA45FD988}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gDesktopTranslator</RootNamespace>
+    <AssemblyName>gDesktopTranslator</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>google.ico</ApplicationIcon>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="gDesktop.Update.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\gDesktop.Update.Core\bin\Release\gDesktop.Update.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="gDesktop.Update.Util, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\gDesktop.Update.Util\bin\Release\gDesktop.Update.Util.exe</HintPath>
+    </Reference>
+    <Reference Include="GoogleTranslateAPI, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\google-language-api-for-dotnet\GoogleTranslateAPI\bin\Release\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.3.9.1, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLiteLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SQLiteLayer\bin\Release\SQLiteLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.65.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SQLiteLayer\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTextToLearn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTextToLearn.Designer.cs">
+      <DependentUpon>AddTextToLearn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="appSettings.cs" />
+    <Compile Include="CacheUsageStatsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CacheUsageStatsForm.Designer.cs">
+      <DependentUpon>CacheUsageStatsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditWordsForLearningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditWordsForLearningForm.Designer.cs">
+      <DependentUpon>EditWordsForLearningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorListFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorListFrom.Designer.cs">
+      <DependentUpon>ErrorListFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globalKeyboardHook.cs" />
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="LearnWordViaSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LearnWordViaSelectForm.Designer.cs">
+      <DependentUpon>LearnWordViaSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediaPlayer.cs" />
+    <Compile Include="NewVersionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewVersionInfo.Designer.cs">
+      <DependentUpon>NewVersionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultForm.Designer.cs">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings1.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeachWord.Designer.cs">
+      <DependentUpon>TeachWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThreadedUpdatesCheck.cs" />
+    <Compile Include="TranslatorToolMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TranslatorToolMainForm.Designer.cs">
+      <DependentUpon>TranslatorToolMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.en.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.ru-RU.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.uk-UA.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.uk.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTextToLearn.resx">
+      <DependentUpon>AddTextToLearn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTextToLearn.ru-RU.resx">
+      <DependentUpon>AddTextToLearn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTextToLearn.uk-UA.resx">
+      <DependentUpon>AddTextToLearn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CacheUsageStatsForm.resx">
+      <DependentUpon>CacheUsageStatsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CacheUsageStatsForm.ru-RU.resx">
+      <DependentUpon>CacheUsageStatsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CacheUsageStatsForm.uk-UA.resx">
+      <DependentUpon>CacheUsageStatsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditWordsForLearningForm.resx">
+      <DependentUpon>EditWordsForLearningForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditWordsForLearningForm.ru-RU.resx">
+      <DependentUpon>EditWordsForLearningForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditWordsForLearningForm.uk-UA.resx">
+      <DependentUpon>EditWordsForLearningForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorListFrom.resx">
+      <DependentUpon>ErrorListFrom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorListFrom.ru-RU.resx">
+      <DependentUpon>ErrorListFrom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorListFrom.uk-UA.resx">
+      <DependentUpon>ErrorListFrom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnWordViaSelectForm.resx">
+      <DependentUpon>LearnWordViaSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnWordViaSelectForm.ru-RU.resx">
+      <DependentUpon>LearnWordViaSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnWordViaSelectForm.uk-UA.resx">
+      <DependentUpon>LearnWordViaSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewVersionInfo.resx">
+      <DependentUpon>NewVersionInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewVersionInfo.ru-RU.resx">
+      <DependentUpon>NewVersionInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewVersionInfo.uk-UA.resx">
+      <DependentUpon>NewVersionInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultForm.resx">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultForm.ru-RU.resx">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultForm.uk-UA.resx">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.ru-RU.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.uk-UA.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachWord.resx">
+      <DependentUpon>TeachWord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachWord.ru-RU.resx">
+      <DependentUpon>TeachWord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachWord.uk-UA.resx">
+      <DependentUpon>TeachWord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TranslatorToolMainForm.resx">
+      <DependentUpon>TranslatorToolMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TranslatorToolMainForm.ru-RU.resx">
+      <DependentUpon>TranslatorToolMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TranslatorToolMainForm.ru.resx">
+      <DependentUpon>TranslatorToolMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TranslatorToolMainForm.uk-UA.resx">
+      <DependentUpon>TranslatorToolMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Translator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="google.ico" />
+    <None Include="Res\small\new.png" />
+    <None Include="Res\small\copy.png" />
+    <None Include="Res\small\paste.png" />
+    <None Include="Res\small\clipboard_paste_01.png" />
+    <None Include="Res\small\reload.png" />
+    <None Include="Res\small\google.png" />
+    <None Include="Res\small\bookcase.png" />
+    <None Include="Res\small\emblem_library.png" />
+    <None Include="Res\small\onebit_21.png" />
+    <None Include="Res\bullet_orange.png" />
+    <None Include="Res\button_cancel.png" />
+    <None Include="Resources\cleardot.gif" />
+    <None Include="Resources\suggestBtn.PNG" />
+    <None Include="Res\addSuggestion.png" />
+    <None Include="logo.png" />
+    <None Include="Resources\logo.jpeg" />
+    <None Include="Resources\preferences_desktop_text_to_speech.png" />
+    <None Include="Resources\ajax-loader.gif" />
+    <None Include="Resources\ajax-loader1.gif" />
+    <None Include="Resources\ajax-loader-fb.gif" />
+    <None Include="Resources\ajax-loadercircle.gif" />
+    <None Include="Resources\sound_sh.png" />
+    <None Include="Resources\sound_sh%282%29.png" />
+    <None Include="Resources\2.gif" />
+    <Content Include="translate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cache\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

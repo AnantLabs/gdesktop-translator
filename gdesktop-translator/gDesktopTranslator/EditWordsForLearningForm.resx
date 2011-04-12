@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="removeRowBtn.Text" xml:space="preserve">
+    <value>Delete record</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="wordsGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="learned.Width" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;wordsGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="removeRowBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="wordsGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 241</value>
+  </data>
+  <data name="&gt;&gt;learnAgain.Name" xml:space="preserve">
+    <value>learnAgain</value>
+  </data>
+  <data name="learnAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="deleteAllBtn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;learned.Name" xml:space="preserve">
+    <value>learned</value>
+  </data>
+  <data name="&gt;&gt;removeRowBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;learnAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="learnCount.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="removeRowBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;translation.Name" xml:space="preserve">
+    <value>translation</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>List of words for learning</value>
+  </data>
+  <data name="deleteAllBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="word.HeaderText" xml:space="preserve">
+    <value>Word or text</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 25</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wordsGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;learnCount.Name" xml:space="preserve">
+    <value>learnCount</value>
+  </data>
+  <data name="&gt;&gt;id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;word.Name" xml:space="preserve">
+    <value>word</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="learnCount.HeaderText" xml:space="preserve">
+    <value>Learn Count</value>
+  </data>
+  <data name="&gt;&gt;deleteAllBtn.Name" xml:space="preserve">
+    <value>deleteAllBtn</value>
+  </data>
+  <data name="deleteAllBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABL9JREFUSEvNlUlM
+        G2cUx5N0oYSgSAULaFCOFaUNQgLCkUNaBamHVFF76qULIgixBXBsEsSAA8axwQsUXBuzhX0ptvEGmBgv
+        mNVmSzBmC01RCCYhNAnH6L1+M62QUgWM2h460tN45tN8v+//f4tPnPi/XEajMaC8svxCeTnvgswoC/hP
+        z6XRaIKLqMLeEavltbZf/foGN7dPpVIF/yuIUqn8tFIizOHxqF6RVLSxtOSBvb09+G3zEZgGdVBEcdfY
+        nPwOTkF+Jo/H++TYsMbGxvCamurW0VH7q+WVJVhZ9cKjzQ10z7hQWiVGwZ0ysDusqDNoaBD2G9RQI69+
+        yebmNVNCKvxIEEVRp6qqZIbd3WfwbPcpPt7aRBrwcGMdO7ra8afaKhQIy0CpkqPLPQ39ejUOmPVoGOgH
+        nVEDeexsE73HoRCZTMaqb1D59vdfwd7vz8Hn24atJ48JYA1m59zgcFrBfG8QBs0GMA3pwTCgBb1Jw9zp
+        KC0r8RUUFLAOBSgUFaFSmdTnHHPAk+0tfPHyBe483QGiiNx9jCLatgeeeRybsIPdacER+zCxSw31jUpk
+        c7J9FJUbeiigu7v7nVu3OMNWmwVI4Ny8G9fWVxm7nu/tom9nG4ld4F1ZwompcVoNdnW3I8kB0PZdS081
+        H2kRTebzS6kKsQiI5zA+4QTvsgc2fl1nYtFzH6ZdE2Czj8DAoBE02j5oaq4HvqAU0jPSICMrnfJbTQIh
+        n7pnMQNdMRKZGEv5PFDVK7GltRmbmhtQoZRDVbUMi3kUsDl5+GPK95ibnwNZORlIIP4BfAGfstpG4G5b
+        E7FgCLp6OkBn0IJa+wuUkxJV1MmBKqGgsOgmCCsEkH09k3m+TiBp6an+AbQCGtDZ0058HkPTkAHmFmZw
+        aWURe9VdaHVYoOGuCkXiO6CiE8vNw+LbDACPBSCnYgDk5Dg5PY4DhwAqxEKob/qnAKuFAUy5JkkjGWF2
+        wX2gwDZqgUaioEIiIoC6NxVkHMOiPxVYoK2jBcanxoAGTLsn4b5nntjWRmrfSqxRQKVUBAqVnE40/GXR
+        8XJAqoayO2zQ1duB7lkXDppNMEv6wbvqYXLgnHBAc2sDiqUV0NCsOlBAKglT01L8J7mouJByOh3Q3duJ
+        s/MzB4CVNS8DIIknFdaIYlnlGwDuTQ7+kPKdf0DKtRQe3Ujtna3gmpmGwWETY5F3xcNYRP8mOQBJlRjq
+        GhRwg5sPpfwSplQvfXGp9MhOZrFYZxISE0R6Qz+xqJ3Mm1FmUj7wLODaw2Xs0/YQVW4ahNU1MmjrbMEy
+        wW0UiMroHsGYmM8kpJPpWfTWiXqSLHx47vy5b2pra/dto1bSA3o0mfXgmpvE+cUZHJty4NikA4xDOmzr
+        amGsUtbLsbpWClnszP2IiIhvyR4fkXjvrSMjOjr6fbIQFhoa+uWVq1f05JTbWp0a7KNWkmgXuEk4xm1A
+        9wZpRKj5uRoKCri+y5c/N4aEhHxFvj0fFhYW5G8enYqMjAwMCgoKO3v2dCyx7Wp0dBQnISFenJh4UX4x
+        MV4eGxcriYr6mMsKZ30dGBgYTyKSAIKTkpLe9bf539dP0h8lJycHxMXFnSYKz9ARExMTRN5/QN7RVhz+
+        D0YW/wAqb4pw64nxXAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;wordsGridView.Name" xml:space="preserve">
+    <value>wordsGridView</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="removeRowBtn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="learned.HeaderText" xml:space="preserve">
+    <value>Learned</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>461, 266</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="learnAgain.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="learnAgain.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABLVJREFUSEutVXlM
+        k2ccFlyyGZ1ZsuyfJTM7nArzSJ2cVTqmYBEoRQ5tbS2IDZer4yzKTAF1yCWIUHACIgJKYXJDGVWgnEIE
+        BrTWcTjOKQZhHBUPePa1cyyEdujimzx5f9/7Pr/n+X3v8X06KzQ0JyenlY9evLcBOrqfr9TR2YgVOl/o
+        6upuWPPuqs1zOnNPpiaVwtXP16aIxRefacpfNLZ7P3fPHifu1b0M93L6EV4H81jQY7eAEHgG/4jvw6IQ
+        eO4CgmOECIn/CacT0xCWkAK/s7E45BM8a+HsVmhqxz7wnyaWB7il4ZcyEHtVhJgr19X9hWu56j72ag7O
+        p+cgOu26GpGpWepeNRaXkYuIy9fAj7gIlnfQ2DcOrhnGNmzKErMdVGcDt4BQZJTcwuWfy5AsKobwRiGB
+        IghzipBIIOlGAZIJJKrH/4WKm5ovViMuIw8no4U46MnvMaNzzpvYMDYtmBlYOJwKjk5GUd1dZFdIkVmu
+        QjVulEqQV1iKnOIKXC+RIIsY04RscQ1EknoUSFtQWNuCbHE1Ii5lgsrwSFowMaEychKyiyBplaNC2ojK
+        Kil+qW1AeV0LShralqKxDWVNv0Lc3ImKlk5Ud3SjprMH5Xc6kHpTDEFcCiycj2YtGOiTbXYGhkZB1t6K
+        5s57qJX1Qip/AKmMQFcv6oi4/t7vaLw/gKbfBtGg6EflXTlK6luRX92M2PRccHxDZiwduMOG1IP1JPP9
+        Z01ptPcXDPaxeUJZdy/kHe1oejAK2aNJyP6YgJzo7z+eVscqUUmrAkW1rSiua4Oooo5YklZ0jYwjvegW
+        vjSiZm2j2H2gOuaLNtuQemhtWFImpl8CyulJ1HcPEaJKtA+Ooaarj1iGLpQRry6SNKCyTQH5wykoRmfQ
+        PwMMzQIDM/MYAyCIT5k2NnZcteQkmdHYJI7faYScicRNkQjNPcOQtslxkxBsUfRhcFyJkannmCJECE0o
+        CRC14Pmr5/G5v2PFyBPspHHOabwX+hTb9Uc9fVoC/fnzbJ5gguBrbS8IQUXfELq6BzCpfLaIx/QOqtd6
+        8bx8f6g8cyZycN323bw77bIlBnPzc8jKL8O+Q+6jpG8d60jm9lUUe9ZAem7xAvds/JXHWg28fU7UREVF
+        jX6kT1kTGJGwqLQnk0owvU9gvaFlDMmMrkehUN5RCX29x2bdZwYWsYLoJLVJBlGAVgNPn2BpZGTklIpA
+        d/XJf/qqrpEJJRy5/uMbyVRbbcl6ZOuQkpo7KLjdBI0brUrk8vjS8NCwWVVsbHXgmOzhBMYJE5fjIU/1
+        TK13LffltHX5rupUbAq2WrBWa+RyvXyloQKB2mC7uYNlSUM7kvPKsYlszVlOXDVvSHXUJ9syQ7Vy2R5+
+        kgD+SfUSGVo6bwsIT4AVw0PyOuLLcgzo7A95x3gT0cF8bLFiblElEPcjz8SatXnZ5NchWDu4hL8UHgfS
+        eHB3dLz9OjlvxBE424wgigHEHcYlD4enb5S8HPkrO5dPMl2tAT4ZCCSj0XsfdtC5S/9OywlpmyfRjnzs
+        z2Ki33sXhr1MEMOyhRHddef/1dOYZ0Tj8Jh2jDFXe/s/jWmHE9+q+D9i2/ZyPiXZsta/TfG/AH73UzDk
+        aY6wAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="learnAgain.Text" xml:space="preserve">
+    <value>Learn this word again</value>
+  </data>
+  <data name="&gt;&gt;deleteAllBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="wordsGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;wordsGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;translation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;id.Name" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="translation.HeaderText" xml:space="preserve">
+    <value>Translation</value>
+  </data>
+  <data name="&gt;&gt;learned.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;word.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="translation.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="word.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;learnCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="id.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="wordsGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EditWordsForLearningForm</value>
+  </data>
+  <data name="deleteAllBtn.Text" xml:space="preserve">
+    <value>Delete all</value>
+  </data>
+  <data name="&gt;&gt;removeRowBtn.Name" xml:space="preserve">
+    <value>removeRowBtn</value>
+  </data>
+  <data name="id.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <metadata name="id.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="learned.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="word.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="learnCount.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="translation.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
