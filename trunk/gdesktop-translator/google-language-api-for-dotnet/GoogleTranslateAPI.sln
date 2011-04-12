@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleTranslateAPI", "GoogleTranslateAPI\GoogleTranslateAPI.csproj", "{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{662A8C9D-D423-4D06-A33C-E535EC946C74}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Newtonsoft.Json.dll = lib\Newtonsoft.Json.dll
+		lib\Newtonsoft.Json.XML = lib\Newtonsoft.Json.XML
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+		lib\nunit.framework.xml = lib\nunit.framework.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleTranslateAPI.Test", "GoogleTranslateAPI.Test\GoogleTranslateAPI.Test.csproj", "{3679CA26-90FF-44A0-A5A0-D74917008E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3679CA26-90FF-44A0-A5A0-D74917008E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3679CA26-90FF-44A0-A5A0-D74917008E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3679CA26-90FF-44A0-A5A0-D74917008E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3679CA26-90FF-44A0-A5A0-D74917008E07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

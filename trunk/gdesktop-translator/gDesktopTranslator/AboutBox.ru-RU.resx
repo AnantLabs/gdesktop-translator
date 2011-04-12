@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Эта программа является настольным клиентом для сервисов перевода Google Translate.
+
+Если вам приходится работать с иностранными текстами, незнакомыми словами - тогда эта программа - то, что вам нужно!
+
+Вы можете вставить текст в верхнюю область редактирования, выбрать язык оригинала текста и язык, на который нужно перевести, и нажать кнопку перевод.
+
+Кроме этого, вы можете в любом окне, которое поддерживает копирование с помощью комбинации Ctrl C, перевести выделенный текст. Для этого его нужно просто выделить нужный фрагмент текста и нажать Ctrl C C. В результате появится окно с переводом выделенного фрагмента. Вы можете настроить язык оригинала и перевода, которые використовуютсья при этом.
+
+Эта программа сворачивается в системный лоток при минимизации и может загружаться при запуске системы.
+
+Эти опции можно настроить с помощью команды Файл-&gt; Настройки.
+
+Все незнакомые слова можно добавить в список изучения. После этого, они периодически (время настраивается) они будут выводиться в двух вариантах: либо слово-перевод, или слово и 4 варианта ответа и нужно выбрать один из них.
+
+Можете воспользоваться быстрым поиском в интернете текста, находящегося в буфере. Для этого нужно нажать комбинацию клавиш [Ctrl-Alt-F] (доступно глобально)
+
+Буду рад отзывам и пожеланиям относительно программы.
+Пишите мне на электронную почту ganzha.vitaliy @ gmail.com
+
+Мой сайт: http://bytes.org.ua/
+
+Вы можете быстро открыть главное окно программы с помощью глобальной комбинации клавиш Alt Ctrl O
+
+[Ctrl CC] - (доступна глобально) перевести выделенный фрагмент текста в любом окне (которое поддерживает копирование с помощью клавиш Ctrl CC)
+[Ctrl-Alt-F] - (доступно глобально) быстрый поиск текста с буфера в интернете
+[Alt Ctrl O] - Показать окно
+[Ctrl P] - Открыть окно настроек программы
+[Ctrl T] - Перевести текст (в главном окне)
+[Ctrl D] - Определить язык текста (в главном окне)
+[Ctrl E] - Изменить язык интерфейса на английский
+[Ctrl U] - Изменить язык интерфейса на украинский
+[Ctrl R] - Изменить язык интерфейса на русский
+[F1] - Показать краткую справку о программе
+[Alt X] - Выход из программы
+[Ctrl S] - Обменять языка оригинала и перевода
+[Ctrl Del] - Удалить все
+[Ctrl Ins] - Вставить текст из буфера и переложить
+[Ctrl W] - Вставить текст из буфера</value>
+  </data>
+</root>

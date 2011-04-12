@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gDesktopTranslator", "gDesktopTranslator\gDesktopTranslator.csproj", "{67356209-2C15-489E-AC6C-6B5DA45FD988}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D412711B-2719-430A-900F-3257E04DFF55} = {D412711B-2719-430A-900F-3257E04DFF55}
+		{D284912D-7391-4A63-8576-E9D4CF9BD8F4} = {D284912D-7391-4A63-8576-E9D4CF9BD8F4}
+		{30AA53D4-1CA8-41BD-8252-18071C91CD1E} = {30AA53D4-1CA8-41BD-8252-18071C91CD1E}
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071} = {B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleTranslateAPI", "google-language-api-for-dotnet\GoogleTranslateAPI\GoogleTranslateAPI.csproj", "{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteLayer", "SQLiteLayer\SQLiteLayer.csproj", "{D284912D-7391-4A63-8576-E9D4CF9BD8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gDesktop.Update.Core", "gDesktop.Update.Core\gDesktop.Update.Core.csproj", "{30AA53D4-1CA8-41BD-8252-18071C91CD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gDesktop.Update.Util", "gDesktop.Update.Util\gDesktop.Update.Util.csproj", "{D412711B-2719-430A-900F-3257E04DFF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67356209-2C15-489E-AC6C-6B5DA45FD988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67356209-2C15-489E-AC6C-6B5DA45FD988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67356209-2C15-489E-AC6C-6B5DA45FD988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67356209-2C15-489E-AC6C-6B5DA45FD988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4FFF1-84F5-4BCA-8BB6-7D83CBC5E071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D284912D-7391-4A63-8576-E9D4CF9BD8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D284912D-7391-4A63-8576-E9D4CF9BD8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D284912D-7391-4A63-8576-E9D4CF9BD8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D284912D-7391-4A63-8576-E9D4CF9BD8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AA53D4-1CA8-41BD-8252-18071C91CD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AA53D4-1CA8-41BD-8252-18071C91CD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AA53D4-1CA8-41BD-8252-18071C91CD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AA53D4-1CA8-41BD-8252-18071C91CD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D412711B-2719-430A-900F-3257E04DFF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D412711B-2719-430A-900F-3257E04DFF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D412711B-2719-430A-900F-3257E04DFF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D412711B-2719-430A-900F-3257E04DFF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
